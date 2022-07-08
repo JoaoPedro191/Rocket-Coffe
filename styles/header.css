@@ -1,0 +1,17 @@
+header > div.Content-Header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.7rem  2.5rem 2.5rem 2.6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+header div.Content-Header > button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

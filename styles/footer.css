@@ -1,0 +1,32 @@
+footer#footer{
+  margin-top: 9.8rem;
+}
+
+footer#footer > p{
+  text-align: center;
+  font-size: 5rem;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+footer#footer > div.Wrapper-of-Img-Coffe {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap:6.5rem;
+   background-image: url(/images/blur-mobile.png);
+   background-repeat: no-repeat;
+   background-position-y: 46%;
+}
+
+footer#footer > div.Wrapper-of-Img-Coffe  > p{
+  text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+  font-size: 5rem;
+  font-weight: 700;
+  margin-top: 0.6rem;
+}
+
+footer#footer  div.Wrapper-of-Img-Coffe > img{
+   width: 43.8rem;
+   background: transparent;
+}
