@@ -13,10 +13,15 @@ footer#footer > div.Wrapper-of-Img-Coffe {
    display: flex;
    flex-direction: column;
    align-items: center;
+<<<<<<< HEAD
    row-gap: 16.5rem;
    background-image: url(../images/blur-mobile.png);
    background-position: center;
    background-size: cover;
+=======
+   row-gap:6.5rem;
+   background-image: url(../images/blur-mobile.png);
+>>>>>>> 2d864255f9a7d00088c4d13e299c13b0589b4303
    background-repeat: no-repeat;
    background-position-y: 46%;
 }
