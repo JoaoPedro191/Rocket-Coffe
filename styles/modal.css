@@ -1,0 +1,61 @@
+div.Open-Modal{
+  position: fixed;
+  top: 0;
+  background-color: var(--backgrond);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+div.Modal-Visible{
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+div.Open-Modal > header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.7rem  2.5rem 2.5rem 2.6rem;;
+  border-bottom: 1px solid var(--border);
+}
+
+div.Open-Modal  header > button { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+div.Open-Modal > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.Open-Modal ul a > li.Selected {
+  font-size: 1.8rem;
+  color: var(--text-color); 
+  border-left: 0.4rem solid var(--button);
+  padding: 1.7rem 0 1.4rem 2.6rem; 
+  border-bottom: 1px solid var(--border); 
+}
+
+
+div.Open-Modal ul > a + a{
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--border-menu-mobile);
+  padding: 1.7rem 0 1.4rem 3rem; 
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+}
+
+
