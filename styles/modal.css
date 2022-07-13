@@ -7,7 +7,7 @@ div.Open-Modal{
   opacity: 0;
   visibility: hidden;
   transform: translateX(-100%);
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 div.Modal-Visible{
@@ -48,6 +48,9 @@ div.Open-Modal ul a > li.Selected {
   border-bottom: 1px solid var(--border); 
 }
 
+div.Open-Modal ul a{
+  text-decoration: none;
+}
 
 div.Open-Modal ul > a + a{
   font-size: 1.8rem;
@@ -57,5 +60,4 @@ div.Open-Modal ul > a + a{
   border-bottom: 1px solid var(--border);
   text-decoration: none;
 }
-
 

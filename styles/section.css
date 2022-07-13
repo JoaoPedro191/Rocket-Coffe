@@ -38,3 +38,51 @@ section#section > button:hover{
   background-color: var(--button);
   filter: brightness(0.9);
 }
+
+
+/* ===== MEDIA QUERIES SECTiON DESKTOP ==== */
+@media(min-width: 1024px) {    
+  /* background-image: url("../assets/blur-1.png"), url("../assets/blur-2.png");
+  background-position: bottom left, top right;
+  background-size: 600px 600px, 600px 600px;
+  background-repeat: no-repeat, no-repeat; */
+
+  section#section h1 {
+    display: none;
+  }
+  section#section button.Button-Mobile {
+    display: none;
+  }
+  section#section  footer#footer {
+    margin-top: 4rem;
+    padding-right: 7rem;
+  }
+  section#section  footer#footer > div.Wrapper-of-Img-Coffe {
+    background-image: none;
+  }
+  section#section  footer#footer > p {
+     font-weight: 600;
+     font-size: 8rem;
+     line-height: 11rem;
+  }
+  section#section  footer#footer div.Wrapper-of-Img-Coffe > p {
+    font-family: 600;
+    font-size: 8rem;
+  }
+  section#section  footer#footer div.Wrapper-of-Img-Coffe > img {
+    width: 86rem;
+    object-fit: cover;
+    position: absolute;
+    bottom: 3px;
+  }
+}
+
+/* ==== MEDIA QUERIES  TABLETS ======= */
+@media(max-width: 912px){
+  header.desktop-header > div.Content-Header-Desktop{
+   display: none;
+  }
+}
+
+
+
