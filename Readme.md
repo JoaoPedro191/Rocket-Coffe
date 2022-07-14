@@ -2,11 +2,7 @@
 <p align="center">
   Homepage de uma marca de café. 
   <br />
-  <a href="https://efficient-sloth-d85.notion.site/Desafio-RocketCoffee-7802895f0dd44da5a6f71a64badc7e72">Desafio Discover da Rocketseat.</a>
-</p>
-
-<p align="center">
-  <img src="./assets/logo-desktop.svg" />
+  <a href="">Desafio Discover da Rocketseat.</a>
 </p>
 
 ## Tecnologias usadas 🚀
