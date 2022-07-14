@@ -1,5 +1,5 @@
 /* HEADER MOBILE */
-header.mobile-header > div.Content-Header{
+header.Mobile-Header > div.Content-Header{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,7 +7,7 @@ header.mobile-header > div.Content-Header{
   border-bottom: 1px solid var(--border);
 }
 
-header.mobile-header div.Content-Header > button{
+header.Mobile-Header div.Content-Header > button{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,75 +17,75 @@ header.mobile-header div.Content-Header > button{
   cursor: pointer;
 }
 
-
 /* ========== HEADER DESkTOP ==================== */ 
-header.desktop-header > ul{
+header.Desktop-Header > ul{
   display: flex;
   align-items: center;
   column-gap: 3.2rem;
   display: none;
 }
 
-header.desktop-header > ul a{
+header.Desktop-Header > ul a{
   text-decoration: none;
   color: var(--text-color);
 }
 
-header.desktop-header > ul a > li{
+header.Desktop-Header > ul a > li{
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 2rem;
 }
 
-header.desktop-header > ul a > li:hover{
+header.Desktop-Header > ul a > li:hover{
   text-decoration: underline;
 }
 
 
 /* ========= MEDIA QUERIES HEADER DESKTOP ============ */
 @media(min-width: 1024px) {
-  .mobile-header {
+  .Mobile-Header {
     display: none;
   }
 
-  header.desktop-header div.Content-Header-Desktop{
+  header.Desktop-Header div.Content-Header-Desktop{
     padding: 5rem 0 0;
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
   }
 
-  header.desktop-header div.Content-Header-Desktop{
+  header.Desktop-Header div.Content-Header-Desktop{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
-  header.desktop-header div.Content-Header-Desktop button:first-child {
+  header.Desktop-Header div.Content-Header-Desktop button:first-child {
     background: transparent;
     cursor: pointer;
     border: none;
   }
 
-  header.desktop-header div.Content-Header-Desktop ul{
+  header.Desktop-Header div.Content-Header-Desktop ul{
     display: flex;
     align-items: center;
-    column-gap: 3.2rem;
+    column-gap: 3.3rem;
   }
 
-  header.desktop-header div.Content-Header-Desktop ul > a {
+  header.Desktop-Header div.Content-Header-Desktop ul > a {
     color: var(--text-color);
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 2rem;
   }
 
-  header.desktop-header div.Content-Header-Desktop ul > a:hover{
+  header.Desktop-Header div.Content-Header-Desktop ul > a:hover{
     text-decoration: underline;
   }
 
-  header.desktop-header div.Content-Header-Desktop button:last-child{
-    height: 3.7rem;
-    width: 18rem;
+  header.Desktop-Header div.Content-Header-Desktop button:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 0.6rem;
     border: 2px solid var(--button);
     cursor: pointer;
@@ -96,9 +96,10 @@ header.desktop-header > ul a > li:hover{
     font-size: 1.1rem;
     line-height: 1.5rem;
     text-transform: uppercase;
-    transition: ease-out 0.3s;    
+    transition: ease-out 0.3s;
+    padding: 1rem 3.8rem 1rem 3.8rem;    
   }
-  header.desktop-header div.Content-Header-Desktop button:last-child:hover{
+  header.Desktop-Header div.Content-Header-Desktop button:last-child:hover{
     background-color: var(--button);
     transform: scale(1.05);
   }

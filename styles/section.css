@@ -1,10 +1,9 @@
-section#section{
+section#Section {
   width: 100%;
   height: 100%;
-  background-color: var(--backgrond);
 }
 
-section#section > h1{
+section#Section > h1{
   text-align: center;
   font-size: 3rem;
   max-width: 28.3rem;
@@ -15,7 +14,7 @@ section#section > h1{
   color: var(--text-color);
 }
 
-section#section > button{
+section#Section > button{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,45 +30,52 @@ section#section > button{
   cursor: pointer;
   color: var(--text-color);
   filter: brightness(0.9);
-  transition: ease-out 0.7s;
+  transition: ease-out 0.3s;
 }
 
-section#section > button:hover{
+section#Section > button:hover{
   background-color: var(--button);
   filter: brightness(0.9);
+  transform: scale(1.05);
 }
 
 
 /* ===== MEDIA QUERIES SECTiON DESKTOP ==== */
-@media(min-width: 1024px) {    
-  /* background-image: url("../assets/blur-1.png"), url("../assets/blur-2.png");
-  background-position: bottom left, top right;
-  background-size: 600px 600px, 600px 600px;
-  background-repeat: no-repeat, no-repeat; */
-
-  section#section h1 {
+@media(min-width: 1024px) {   
+  
+  body{
+    background-color: var(--backgrond);
+    background-image: url("../images/blur-1.png"), url("../images/blur-2.png"); 
+    background-position: bottom left, top right;
+    /* background-size: 700px 700px, 1398px 766px; */
+    background-size: 700px, 700px, 700px, 700px;
+    background-repeat: no-repeat, no-repeat;
+  }
+  
+  section#Section h1 {
     display: none;
   }
-  section#section button.Button-Mobile {
+  section#Section button.Button-Mobile {
     display: none;
   }
-  section#section  footer#footer {
+  section#Section  footer#Footer{
     margin-top: 4rem;
-    padding-right: 7rem;
+    padding-right: 12rem;
   }
-  section#section  footer#footer > div.Wrapper-of-Img-Coffe {
+  section#Section  footer#Footer > div.Wrapper-of-Img-Coffe {
     background-image: none;
   }
-  section#section  footer#footer > p {
+  section#Section  footer#Footer> p {
+    letter-spacing: -0.03em;
      font-weight: 600;
      font-size: 8rem;
      line-height: 11rem;
   }
-  section#section  footer#footer div.Wrapper-of-Img-Coffe > p {
+  section#Section  footer#Footer div.Wrapper-of-Img-Coffe > p {
     font-family: 600;
     font-size: 8rem;
   }
-  section#section  footer#footer div.Wrapper-of-Img-Coffe > img {
+  section#Section  footer#Footer div.Wrapper-of-Img-Coffe > img {
     width: 86rem;
     object-fit: cover;
     position: absolute;
@@ -78,11 +84,10 @@ section#section > button:hover{
 }
 
 /* ==== MEDIA QUERIES  TABLETS ======= */
-@media(max-width: 912px){
-  header.desktop-header > div.Content-Header-Desktop{
+@media(max-width: 1023px) {
+  header.Desktop-Header > div.Content-Header-Desktop{
    display: none;
   }
 }
-
 
 

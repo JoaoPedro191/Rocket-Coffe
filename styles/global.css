@@ -11,33 +11,17 @@
 
 }
 
-body, html{
+body, html {
  height: 100%;
  width: 100%;
+
 }
 
 body{
   font-size: 1.6rem;
   font-family: 'Manrope', sans-serif;
-  position: relative;
-  /* background-image: url("../images/blur-1.png"), url("../images/blur-2.png");
-  background-position: bottom left, top right;
-  background-size: 600px 600px, 600px 600px;
-  background-repeat: no-repeat, no-repeat; */
+  background-color: var(--backgrond);
 }
-
-/* .teste { */
-  /* background-color: red; */
-  /* position: fixed;
-  right: 10%;
-  width: 500px;
-  height: 500px;
-  background-image: url("../images/blur-1.png"), url("../images/blur-2.png"); 
-  background-position: bottom left, top right;
-  background-size: 600px 600px, 600px 600px;
-  background-repeat: no-repeat, no-repeat;
-  box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6)
-} */
 
 :root {
   font-size: 62.5%;
